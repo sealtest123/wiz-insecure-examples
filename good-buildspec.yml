@@ -1,0 +1,19 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      python: 3.11
+      nodejs: 18
+    commands:
+      - echo "Installing dependencies..."
+      - pip install --require-hashes -r requirements.txt
+      - npm ci
+
+  build:
+    commands:
+      - echo "Building application..."
+
+  post_build:
+    commands:
+      - echo "Build completed"
