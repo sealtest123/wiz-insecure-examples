@@ -7,6 +7,7 @@ You now have a clean A/B test:
 - Git-based installs
 - Unpinned dependencies
 - Runtime downloads
+
 **✅ Safe repo should NOT trigger:**
 - Everything pinned
 - Deterministic installs (```npm ci```, ```--require-hashes```)
