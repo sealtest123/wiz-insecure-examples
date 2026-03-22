@@ -1,0 +1,4 @@
+requests==2.31.0 \
+    --hash=sha256:58cd2187c01e70e6e26505bca751777aa6a07d3b4b1d52b2f1b3d6d0f7c5f5b9
+flask==3.0.0 \
+    --hash=sha256:93a1b2c4d5e6f7890abc1234567890abcdef1234567890abcdef1234567890ab
