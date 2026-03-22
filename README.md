@@ -17,8 +17,8 @@ You now have a clean A/B test:
 
 Run both through your PR flow:
 
--PR with risky version → expect findings + failure
--PR with safe version → expect clean scan
+- PR with risky version → expect findings + failure
+- PR with safe version → expect clean scan
 
 **⚠️ One small note**
 
