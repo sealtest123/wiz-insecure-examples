@@ -1,6 +1,0 @@
-- name: Risky step
-  run: |
-    curl -fsSL https://example.com/install.sh | bash
-    pip install -r requirements.txt
-    pip install git+https://github.com/some/repo.git
-    npm install express
