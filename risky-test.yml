@@ -1,0 +1,25 @@
+name: Risky Pipeline Example
+
+on:
+  workflow_dispatch:
+
+jobs:
+  risky-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Dangerous curl bash
+        run: |
+          curl -fsSL https://example.com/install.sh | bash
+
+      - name: Unpinned pip install
+        run: |
+          pip install -r requirements.txt
+
+      - name: Install from git repo
+        run: |
+          pip install git+https://github.com/psf/requests.git
+
+      - name: Unpinned npm install
+        run: |
+          npm install express
